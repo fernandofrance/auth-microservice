@@ -15,8 +15,7 @@ try {
 app.use(express.json())
 
 // Routes
-const animalRoute = require('./routes/animalRoutes')
-app.use("/animal", animalRoute)
+
 
 
 app.listen(3333)
