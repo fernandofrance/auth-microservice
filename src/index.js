@@ -18,7 +18,9 @@ try {
 
 // Routes
 const authRoute = require("./routes/Auth");
+const privateRoute = require("./routes/Private")
 app.use("/auth", authRoute);
+app.use("/private", privateRoute)
 
 
 app.listen(3333);
